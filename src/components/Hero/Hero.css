@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.category li {
+  list-style: none;
+  padding-bottom: 20px;
+  cursor: pointer;
+  color: black;
+  
+}
+.link-unstyled,
+.link-unstyled:link,
+.link-unstyled:visited,
+.link-unstyled:hover,
+.link-unstyled:active {
+  color: inherit;
+  text-decoration: none;
+}
+.category li:hover{
+    color: rgb(96, 94, 94);
+}
+
+.category li:nth-child(1)::after,
+.category li:nth-child(2)::after {
+  content: ">";
+  position: absolute;
+  margin-left: 5px;
+  color: black;
+  font-size: 20px;
+}
+
+.category::before {
+  content: "";
+  position: absolute;
+  width: 1.2px;
+  background-color: rgb(231, 230, 230) !important;
+  top: 140px;
+  bottom: 0;
+  height: 460px;
+  left: 26%;
+}
+
+@media (max-width: 992px) {
+  .category::before {
+    width: 0;
+  }
+  
+}
+.hero-section{
+    background-color: black;
+    height: 400px !important;
+    max-width: 800px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-top:50px !important;
+}
+.carousel {
+  width: 100%; 
+  height: 100%; 
+}
+
+.carousel-inner {
+  height: 100%; 
+}
+.carousel-item {
+  height: 100%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.carousel-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  padding: 0px 20px; 
+  
+}
+
+.carousel-text {
+  color: white; 
+  max-width: 300px; 
+  padding-left:40px;
+  
+}
+
+.carousel-text button{
+    border:none;
+    padding:0;
+    height: 0;
+    color:white;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-underline-offset: 6px;
+
+}
+.carousel-text button::after{
+    content:"→";
+    text-decoration: none !important;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.carousel-image{
+    max-width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.carousel-image img{
+    width: 100%;
+    height: auto;
+}
+
+/* Customize carousel indicators */
+.carousel-indicators [data-bs-target] {
+  background-color: gray; 
+  width: 10px !important; 
+  height: 10px !important;
+  border-radius: 50%; 
+  margin: 0 6px !important; 
+}
+
+.carousel-indicators .active {
+  background-color: pink !important; 
+}
+

@@ -1,0 +1,7 @@
+.head-section .line {
+  width: 10px;
+  height: 35px;
+  background-color: rgba(219, 68, 68, 1);
+  padding: 10px;
+  border-radius: 4px;
+}

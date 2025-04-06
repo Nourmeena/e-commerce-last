@@ -1,0 +1,11 @@
+.commonButton button{
+    background-color: rgba(219, 68, 68, 1);
+    border:none;
+    border-radius: 5px;
+    color:white;
+    text-align: center;
+    padding:15px 40px;
+}
+.commonButton button:hover{
+    background-color: rgb(197, 63, 63);
+}

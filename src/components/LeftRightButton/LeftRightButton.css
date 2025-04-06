@@ -1,0 +1,14 @@
+.sales-button img{
+    width: 30px;
+    height: 30px;
+}
+.sales-button button{
+    border-radius: 50%;
+    border:none;
+    padding:5px;
+    background-color: rgba(245, 245, 245, 1);
+
+}
+.sales-button button:hover{
+    background-color: rgb(234, 234, 234);
+}

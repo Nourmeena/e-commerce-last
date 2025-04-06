@@ -1,0 +1,14 @@
+.secondaryButton button{
+    background-color: rgb(253, 251, 251);
+    border:none;
+    border-radius: 5px;
+    color:black;
+    text-align: center;
+    padding:12px 40px;
+    border:2px solid rgb(180, 179, 179);
+    
+}
+.secondaryButton button:hover{
+    background-color: rgb(236, 234, 234);
+
+}

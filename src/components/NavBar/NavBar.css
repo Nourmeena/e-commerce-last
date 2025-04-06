@@ -1,0 +1,116 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2000; 
+  height: 100px;
+}
+
+.nav-ad {
+  height: 40px;
+}
+
+.nav-ad-txt {
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-ad-dropdown {
+  cursor: pointer;
+}
+
+
+
+.nav-menu hr {
+  border: none;
+  width: 100%;
+  height: 2px;
+  border-radius: 10px;
+  background-color: gray;
+  margin: 0;
+}
+
+.nav-search input {
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  border: none;
+}
+
+.nav-search img:hover {
+  background-color: #efebeb;
+}
+
+.nav-link{
+  font-size: 18px !important;
+  color:black !important;
+}
+
+
+.nav-item .active{
+  color:gray;
+  text-decoration: underline;
+  text-decoration-color: gray;
+  text-underline-offset: 6px;
+}
+.active .nav-icon{
+  background-color:rgb(172, 169, 169);
+  border-radius: 50%;
+  padding:5px;
+}
+
+.nav-link:hover {
+  color:gray;
+  text-decoration: underline;
+  text-decoration-color: gray;
+  text-underline-offset: 6px;
+}
+
+@media (max-width:992px){
+  .nav-ad {
+  height: 60px;
+}
+}
+
+
+
+
+/* For the collapsed navbar background */
+@media (max-width: 992px) {
+  .navbar-collapse {
+    background-color: white;
+    padding: 50px;
+    border-radius: 8px;
+    margin-top: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+   }
+
+  
+  .navbar-nav {
+    padding: 10px 0;
+  }
+
+  
+  .d-flex.align-items-center.gap-3 {
+    padding-top: 15px;
+    border-top: 1px solid #f0f0f0;
+    margin-top: 15px;
+  }
+}
+
+
+.navbar-toggler {
+  border: none;
+  padding: 0.5rem;
+}
+
+.nav-link .active img,
+.nav-link .active {
+  color: gray;
+  text-decoration: underline;
+  text-decoration-color: gray;
+  text-underline-offset: 6px;
+}
+
+
+

@@ -1,0 +1,12 @@
+.email{
+    padding:5px;
+    background-color: transparent;
+    border:none;
+    border: 2px solid white
+}
+footer li{
+    cursor: pointer;
+}
+footer li:hover{
+    color:rgb(208, 208, 208)
+}
