@@ -13,7 +13,7 @@ import "bootstrap/dist/js/bootstrap.min.js";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/e-commerce-last/">
       <App />
     </BrowserRouter>
   </StrictMode>
